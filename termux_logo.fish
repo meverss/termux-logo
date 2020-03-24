@@ -11,8 +11,9 @@ function termux_logo \
     set i (set_color -b $interior)
 
     set n (set_color normal)
-#    set b (set_color -b 555) #fcfcb0)
-#    set i (set_color -b fcfcb0)
+    set bold (set_color -o fff)
+    set h (set_color 999)
+    set t (set_color eee)
 echo '
                '$b'                            '$n'
                '$b'  '$n'                        '$b'  '$n'
@@ -27,25 +28,25 @@ echo '
                '$b'                            '$n''
 
 echo
-echo 'Bienvenido(a) a Termux!'
+echo $bold'Bienvenido(a) a Termux!'$n
 echo
-echo 'Wiki:                      https://wiki.termux.com'
-echo 'Forum de la Comunidad:     https://termux.com/community'
-echo 'Chat en Gitter:            https://gitter.im/termux/termux'
-echo 'Canal IRC:                 #termux en freenode'
+echo $t'Wiki:                      '$h'https://wiki.termux.com'$n
+echo $t'Forum de la Comunidad:     '$h'https://termux.com/community'$n
+echo $t'Chat en Gitter:            '$h'https://gitter.im/termux/termux'$n
+echo $t'Canal IRC:                 '$h'#termux en freenode'$n
 echo
-echo 'Trabajo con paquetes:'
+echo $bold'Trabajo con paquetes:'$n
 echo
-echo ' * Buscar paquetes:        pkg search <query>'
-echo ' * Instalar un paquete:    pkg install <package>'
-echo ' * Actualizar un paquete:  pkg upgrade'
+echo $t' * Buscar paquetes:        '$h'pkg search <query>'$n
+echo $t' * Instalar un paquete:    '$h'pkg install <package>'$n
+echo $t' * Actualizar un paquete:  '$h'pkg upgrade'$n
 echo 
-echo 'Suscribirse a repositorios adicionales:'
+echo $bold'Suscribirse a repositorios adicionales:'$n
 echo
-echo ' * Root:     pkg install root-repo'
-echo ' * Unstable: pkg install unstable-repo'
-echo ' * X11:      pkg install x11-repo'
+echo $t' * Root:                   '$h'pkg install root-repo'$n
+echo $t' * Unstable:               '$h'pkg install unstable-repo'$n
+echo $t' * X11:                    '$h'pkg install x11-repo'$n
 echo
-echo 'Reporte cualquier problema en https://termux.com/issues'
+echo $bold'Reporte cualquier problema en https://termux.com/issues'$n
 
 end
