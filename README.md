@@ -1,6 +1,6 @@
 ## termux_logo
 
-Logo para el terminal Termux
+Logo para el terminal Termux.
 
 ## Descripción
 
