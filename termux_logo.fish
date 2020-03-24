@@ -3,8 +3,8 @@ function termux_logo \
     --argument-names borde interior
 
     # defaults:
-    [ $borde  ]; or set borde  '555'
-    [ $interior ]; or set interior 'fcfcb0'
+    [ $borde  ]; or set borde  '333'
+    [ $interior ]; or set interior 'fff'
 
     # shortcuts:
     set b (set_color -b $borde)
