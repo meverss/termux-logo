@@ -1,6 +1,6 @@
-### termux_logo
+## termux_logo
 Logo para el terminal Termux.
 
-## Descripción
+### Descripción
 
 Muestra el logotipo del terminal Termux más información útil para el usuario.
