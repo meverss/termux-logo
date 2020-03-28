@@ -1,4 +1,4 @@
-## termux_logo
+## termux-logo
 Logo para el terminal Termux.
 
 ### Descripción:
